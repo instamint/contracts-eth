@@ -12,7 +12,7 @@ contract MintTheGram is ERC721, ERC721Enumerable, Ownable {
     mapping(uint256 => string) internal tokenURIs;
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("MintTheGram", "MTG") {}
+    constructor() ERC721("Instamint", "INSTA") {}
 
     function _baseURI() internal pure override returns (string memory) {
         return "https://ipfs.io/ipfs/";
