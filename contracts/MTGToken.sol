@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 
 contract MyToken is ERC20, ERC20Burnable, ERC20Snapshot, Ownable, Pausable {
-    constructor() ERC20("MyToken", "MTK") {
+    constructor() ERC20("Instamint", "INSTA") {
         _mint(msg.sender, 500);
     }
 
